@@ -191,25 +191,16 @@ img {
     padding: 1rem;
 }
 .content img {
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    object-fit: cover;
     margin: auto;
-    width: 75%;
 }
 .circles {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-}
-.full-circle {
-    cursor: pointer;
-    margin: 0.3rem;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #3c6382;
-    transition: background-color 300ms ease;
-}
-.full-circle:hover {
-    background-color: #253e52;
 }
 .circle {
     cursor: pointer;
@@ -217,11 +208,21 @@ img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 4px solid #3c6382;
-    transition: border 300ms ease;
+    border: 4px solid #17c0eb;
+    transition: border 100ms ease;
 }
-.circle:hover {
-    border: 4px solid #253e52;
+.full {
+    cursor: pointer;
+    margin: 0.3rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #17c0eb;
+    transition: background-color 100ms ease;
+}
+.circle:hover, .full:hover {
+    background-color: #2ed573;
+    border: 4px solid #2ed573;
 }
 
 /* Ofertas */
