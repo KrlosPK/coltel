@@ -220,7 +220,8 @@ img {
     background-color: #17c0eb;
     transition: background-color 100ms ease;
 }
-.circle:hover, .full:hover {
+.circle:hover,
+.full:hover {
     background-color: #2ed573;
     border: 4px solid #2ed573;
 }
